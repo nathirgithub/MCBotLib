@@ -39,7 +39,7 @@ Please see the latest version number on the [releases page](https://github.com/m
 
 ##### Creating a simple bot with the nick "Steve" and letting it join a server with the ip of 6.113.148.5 and port 22605:
 ```java
-Bot bot = new Bot("Steve", "6.113.148.5", 22605, BotSettings.builder().build());
+Bot bot = new Bot("Steve", "noyescraft.aternos.me", 59040, BotSettings.builder().build());
 bot.connect();
 ```
 
